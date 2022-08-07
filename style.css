@@ -12,19 +12,21 @@
     }
     
     .card-content h1{
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
         margin-bottom: 2rem;
         color: hsl(150, 100%, 66%);
+        font-weight: 300;
     }
     .card-content{
         padding: 2rem;
         
     }
     .card-content p{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         text-align: center;
         color: hsl(193, 38%, 86%);
+        font-weight: 700;
     }
     
     .desktop-divider{
@@ -47,10 +49,10 @@
     }
     .dice{
         position: absolute;
-        left: 48%;
-        margin-top: -1.2rem;
+        left: 46%;
+        margin-top: -1.4rem;
         background: hsl(150, 100%, 66%);
-        padding: 0.5rem;
+        padding: 0.7rem;
         border-radius: 50%;
         border:none;
         cursor: pointer;
@@ -92,13 +94,14 @@
         text-align: center;
         margin-bottom: 2rem;
         color: hsl(150, 100%, 66%);
+        font-weight: 300;
     }
     .card-content{
         padding: 1rem;
         
     }
     .card-content p{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         text-align: center;
         color: hsl(193, 38%, 86%);
     }
@@ -114,7 +117,7 @@
     }
     .card{
         background: hsl(217, 19%, 24%);
-        width: 70%;
+        width: 80%;
         max-height: fit-content;
         margin: 0 auto;
         margin-top: 12rem;
@@ -126,7 +129,7 @@
         left: 48%;
         margin-top: 0.5rem;
         background: hsl(150, 100%, 66%);
-        padding: 0.5rem;
+        padding: 0.7rem;
         border-radius: 50%;
         border:none;
         cursor: pointer;
@@ -202,8 +205,10 @@
         left: 49%;
         margin-top: 0.5rem;
         background: hsl(150, 100%, 66%);
-        padding: 0.6rem;
+        padding: 0.7rem;
         border-radius: 50%;
+        cursor: pointer;
+        border: none;
     }
 
     .dice:hover{
