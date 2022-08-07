@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:320px) {
+
+    body{
+        background: hsl(218, 23%, 16%);
+    }
+    
+    .card-content h1{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: hsl(150, 100%, 66%);
+    }
+    .card-content{
+        padding: 2rem;
+        
+    }
+    .card-content p{
+        font-size: 1.3rem;
+        text-align: center;
+        color: hsl(193, 38%, 86%);
+    }
+    
+    .desktop-divider{
+        display: none;
+    }
+
+    .mobile-divider{
+        width: 95%;
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+    .card{
+        background: hsl(217, 19%, 24%);
+        width: 90%;
+        max-height: fit-content;
+        margin: 0 auto;
+        margin-top: 12rem;
+        border-radius: 0.5rem;
+
+    }
+    .dice{
+        position: absolute;
+        left: 48%;
+        margin-top: -1.2rem;
+        background: hsl(150, 100%, 66%);
+        padding: 0.5rem;
+        border-radius: 50%;
+        border:none;
+        cursor: pointer;
+    }
+
+    .dice:hover{
+        box-shadow: 1px 1px 10px 1px hsl(150, 100%, 66%);
+    }
+    
+    .dice img{
+        width: 90%;
+        padding-top: 2px;
+    } 
+
+    .attribution { 
+        font-size: 1.3rem; 
+        text-align: center; 
+        margin-top: 3rem;
+        color:hsl(193, 38%, 86%) ;
+    }
+
+    .attribution a { 
+        color: hsl(150, 100%, 66%); 
+    }
+
+}
+
+
+
+/* Tablet view */
+@media screen and (min-width:768px) {
+    body{
+        background: hsl(218, 23%, 16%);
+    }
+    
+    .card-content h1{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: hsl(150, 100%, 66%);
+    }
+    .card-content{
+        padding: 1rem;
+        
+    }
+    .card-content p{
+        font-size: 1.5rem;
+        text-align: center;
+        color: hsl(193, 38%, 86%);
+    }
+    
+    .mobile-divider{
+        display: none;
+    }
+
+    .desktop-divider{
+        display: block;
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .card{
+        background: hsl(217, 19%, 24%);
+        width: 70%;
+        max-height: fit-content;
+        margin: 0 auto;
+        margin-top: 12rem;
+        border-radius: 0.5rem;
+        padding: 2rem;
+    }
+    .dice{
+        position: absolute;
+        left: 48%;
+        margin-top: 0.5rem;
+        background: hsl(150, 100%, 66%);
+        padding: 0.5rem;
+        border-radius: 50%;
+        border:none;
+        cursor: pointer;
+    }
+
+    .dice:hover{
+        box-shadow: 1px 1px 10px 1px hsl(150, 100%, 66%);
+    }
+    
+    .dice img{
+        width: 90%;
+        padding-top: 2px;
+    }  
+
+    .attribution { 
+        font-size: 1.5rem; 
+        text-align: center; 
+        margin-top: 3rem;
+        color:hsl(193, 38%, 86%) ;
+    }
+
+    .attribution a { 
+        color: hsl(150, 100%, 66%); 
+    }
+
+}
+
+
+
+/* Desktop view */
+@media screen and (min-width:980px) {
+    body{
+        background: hsl(218, 23%, 16%);
+    }
+    
+    .card-content h1{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: hsl(150, 100%, 66%);
+    }
+    .card-content{
+        padding: 1rem;
+        
+    }
+    .card-content p{
+        font-size: 1.3rem;
+        text-align: center;
+        color: hsl(193, 38%, 86%);
+    }
+
+    .mobile-divider{
+        display: none;
+    }
+    
+    .desktop-divider{
+        display: block;
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .card{
+        background: hsl(217, 19%, 24%);
+        width: 50%;
+        max-height: fit-content;
+        margin: 0 auto;
+        margin-top: 10rem;
+        border-radius: 0.5rem;
+        padding: 2rem;
+    }
+    .dice{
+        position: absolute;
+        left: 49%;
+        margin-top: 0.5rem;
+        background: hsl(150, 100%, 66%);
+        padding: 0.6rem;
+        border-radius: 50%;
+    }
+
+    .dice:hover{
+        box-shadow: 1px 1px 10px 1px hsl(150, 100%, 66%);
+    }
+    
+    .dice img{
+        width: 90%;
+        padding-top: 2px;
+    } 
+
+    .attribution { 
+        font-size: 1.2rem; 
+        text-align: center; 
+        margin-top: 3rem;
+        color:hsl(193, 38%, 86%) ;
+    }
+
+    .attribution a { 
+        color: hsl(150, 100%, 66%); 
+    }
+
+}
+
